@@ -366,8 +366,21 @@ html {
     margin: 0 auto 2rem;
 }
 
-.social-icon--instagram {
+.social-icon {
+    text-decoration: none;
+    text-underline-offset: 0;
+}
+
+.social-icon + .social-icon {
+    margin-left: 10px;
+}
+
+.social-icon--svg {
     width: 50px;
+}
+
+.social-icon:hover .social-icon--svg {
+    fill: var(--brand-primary);
 }
 
 .social-icon--instagram:hover .icon {
