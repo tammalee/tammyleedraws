@@ -387,6 +387,40 @@ html {
     margin: 0 auto;
  }
 
+ .shop-name {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border: solid 1px transparent;
+ }
+
+ .etsy {
+    background-color: #afd182;
+ }
+
+ .art-of-where,
+ .red-bubble {
+    background-color: #bbeaee;
+ }
+
+ .gumroad {
+    background-color: #fcb5b1;
+}
+
+.patreon {
+    background-color: #fec43b;
+}
+
+.shop-name:hover {
+    background-color: white;
+    border: solid 1px var(--brand-primary);
+}
+
+ .shop-name + .shop-name {
+    margin-top: 10px;
+ }
+
  .shop-description {
     display: block;
     text-align: center;
